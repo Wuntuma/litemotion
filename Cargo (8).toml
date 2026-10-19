@@ -1,0 +1,9 @@
+[package]
+name = "litemotion-audio"
+version.workspace = true
+edition.workspace = true
+license = "MIT"
+description = "Tiny audio output for LiteMotion's live preview (vendored miniaudio, public domain / MIT-0)"
+
+[build-dependencies]
+cc = "1"

@@ -1,0 +1,12 @@
+[package]
+name = "litemotion-cli"
+version.workspace = true
+edition.workspace = true
+
+[[bin]]
+name = "litemotion-cli"
+path = "src/main.rs"
+
+[dependencies]
+litemotion-engine = { path = "../engine" }
+serde_json = "1"

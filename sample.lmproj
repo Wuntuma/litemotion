@@ -1,0 +1,589 @@
+{
+  "format_version": 1,
+  "name": "LiteMotion sample",
+  "width": 1280,
+  "height": 720,
+  "fps": 30.0,
+  "next_id": 18,
+  "media": [
+    {
+      "id": 5,
+      "kind": "video",
+      "path": "/home/claude/litemotion/samples/demo/media/background.mp4",
+      "rel_path": "media/background.mp4",
+      "duration_us": 6000000,
+      "width": 640,
+      "height": 360,
+      "fps": 30.0,
+      "has_audio": false,
+      "audio_channels": 0,
+      "size_bytes": 620849,
+      "proxy_path": null
+    },
+    {
+      "id": 6,
+      "kind": "image",
+      "path": "/home/claude/litemotion/samples/demo/media/logo.png",
+      "rel_path": "media/logo.png",
+      "duration_us": 5000000,
+      "width": 256,
+      "height": 256,
+      "fps": 0.0,
+      "has_audio": false,
+      "audio_channels": 0,
+      "size_bytes": 1691,
+      "proxy_path": null
+    },
+    {
+      "id": 7,
+      "kind": "audio",
+      "path": "/home/claude/litemotion/samples/demo/media/music.wav",
+      "rel_path": "media/music.wav",
+      "duration_us": 6000000,
+      "width": 0,
+      "height": 0,
+      "fps": 0.0,
+      "has_audio": true,
+      "audio_channels": 1,
+      "size_bytes": 529278,
+      "proxy_path": null
+    }
+  ],
+  "tracks": [
+    {
+      "id": 1,
+      "kind": "video",
+      "name": "Video 1",
+      "visible": true,
+      "muted": false,
+      "clips": [
+        {
+          "id": 8,
+          "content": {
+            "type": "media",
+            "media_id": 5
+          },
+          "start": 0,
+          "duration": 6000000,
+          "source_in": 0,
+          "speed": 1.0,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 1.0,
+          "rotation": 0.0,
+          "opacity": 1.0,
+          "volume": 1.0,
+          "muted": false,
+          "fade_in": 0,
+          "fade_out": 0,
+          "fit": "fit",
+          "crop": {
+            "left": 0.0,
+            "top": 0.0,
+            "right": 0.0,
+            "bottom": 0.0
+          },
+          "color": {
+            "brightness": 0.0,
+            "contrast": 1.0,
+            "saturation": 1.0
+          },
+          "transition_in": {
+            "kind": "fade_from_black",
+            "duration": 500000
+          },
+          "transition_out": null,
+          "keyframes": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "kind": "overlay",
+      "name": "Graphics 1",
+      "visible": true,
+      "muted": false,
+      "clips": [
+        {
+          "id": 9,
+          "content": {
+            "type": "media",
+            "media_id": 6
+          },
+          "start": 1000000,
+          "duration": 5000000,
+          "source_in": 0,
+          "speed": 1.0,
+          "x": 0.32,
+          "y": -0.3,
+          "scale": 0.35,
+          "rotation": 0.0,
+          "opacity": 1.0,
+          "volume": 1.0,
+          "muted": false,
+          "fade_in": 0,
+          "fade_out": 0,
+          "fit": "fit",
+          "crop": {
+            "left": 0.0,
+            "top": 0.0,
+            "right": 0.0,
+            "bottom": 0.0
+          },
+          "color": {
+            "brightness": 0.0,
+            "contrast": 1.0,
+            "saturation": 1.0
+          },
+          "transition_in": null,
+          "transition_out": null,
+          "keyframes": [
+            {
+              "prop": "opacity",
+              "keys": [
+                {
+                  "t": 0,
+                  "v": 0.0,
+                  "interp": "ease_out"
+                },
+                {
+                  "t": 800000,
+                  "v": 1.0,
+                  "interp": "linear"
+                }
+              ]
+            },
+            {
+              "prop": "scale",
+              "keys": [
+                {
+                  "t": 0,
+                  "v": 0.21000001,
+                  "interp": "ease_out"
+                },
+                {
+                  "t": 800000,
+                  "v": 0.35,
+                  "interp": "linear"
+                }
+              ]
+            },
+            {
+              "prop": "rotation",
+              "keys": [
+                {
+                  "t": 0,
+                  "v": 0.0,
+                  "interp": "linear"
+                },
+                {
+                  "t": 5000000,
+                  "v": 360.0,
+                  "interp": "ease_in_out"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "kind": "text",
+      "name": "Text 1",
+      "visible": true,
+      "muted": false,
+      "clips": [
+        {
+          "id": 10,
+          "content": {
+            "type": "text",
+            "text": "Hello, LiteMotion",
+            "font": "sans_bold",
+            "size_pct": 10.0,
+            "color": [
+              255,
+              255,
+              255,
+              255
+            ],
+            "align": "center",
+            "outline": true,
+            "outline_color": [
+              0,
+              0,
+              0,
+              255
+            ],
+            "shadow": true,
+            "typewriter_cps": null
+          },
+          "start": 500000,
+          "duration": 5000000,
+          "source_in": 0,
+          "speed": 1.0,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 1.0,
+          "rotation": 0.0,
+          "opacity": 1.0,
+          "volume": 1.0,
+          "muted": false,
+          "fade_in": 0,
+          "fade_out": 0,
+          "fit": "fit",
+          "crop": {
+            "left": 0.0,
+            "top": 0.0,
+            "right": 0.0,
+            "bottom": 0.0
+          },
+          "color": {
+            "brightness": 0.0,
+            "contrast": 1.0,
+            "saturation": 1.0
+          },
+          "transition_in": null,
+          "transition_out": null,
+          "keyframes": [
+            {
+              "prop": "x",
+              "keys": [
+                {
+                  "t": 0,
+                  "v": 0.0,
+                  "interp": "ease_out"
+                },
+                {
+                  "t": 700000,
+                  "v": 0.0,
+                  "interp": "linear"
+                }
+              ]
+            },
+            {
+              "prop": "y",
+              "keys": [
+                {
+                  "t": 0,
+                  "v": -1.0,
+                  "interp": "ease_out"
+                },
+                {
+                  "t": 700000,
+                  "v": 0.0,
+                  "interp": "linear"
+                }
+              ]
+            },
+            {
+              "prop": "opacity",
+              "keys": [
+                {
+                  "t": 4500000,
+                  "v": 1.0,
+                  "interp": "linear"
+                },
+                {
+                  "t": 5000000,
+                  "v": 0.0,
+                  "interp": "linear"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "kind": "overlay",
+      "name": "Graphics 2",
+      "visible": true,
+      "muted": false,
+      "clips": [
+        {
+          "id": 12,
+          "content": {
+            "type": "shape",
+            "shape": "rectangle",
+            "color": [
+              0,
+              0,
+              0,
+              170
+            ],
+            "w": 0.7,
+            "h": 0.16
+          },
+          "start": 1500000,
+          "duration": 4000000,
+          "source_in": 0,
+          "speed": 1.0,
+          "x": -0.1,
+          "y": 0.3,
+          "scale": 1.0,
+          "rotation": 0.0,
+          "opacity": 1.0,
+          "volume": 1.0,
+          "muted": false,
+          "fade_in": 0,
+          "fade_out": 0,
+          "fit": "fit",
+          "crop": {
+            "left": 0.0,
+            "top": 0.0,
+            "right": 0.0,
+            "bottom": 0.0
+          },
+          "color": {
+            "brightness": 0.0,
+            "contrast": 1.0,
+            "saturation": 1.0
+          },
+          "transition_in": null,
+          "transition_out": null,
+          "keyframes": [
+            {
+              "prop": "x",
+              "keys": [
+                {
+                  "t": 0,
+                  "v": -1.1,
+                  "interp": "ease_out"
+                },
+                {
+                  "t": 400000,
+                  "v": -0.1,
+                  "interp": "linear"
+                }
+              ]
+            },
+            {
+              "prop": "y",
+              "keys": [
+                {
+                  "t": 0,
+                  "v": 0.3,
+                  "interp": "ease_out"
+                },
+                {
+                  "t": 400000,
+                  "v": 0.3,
+                  "interp": "linear"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "kind": "text",
+      "name": "Text 2",
+      "visible": true,
+      "muted": false,
+      "clips": [
+        {
+          "id": 13,
+          "content": {
+            "type": "text",
+            "text": "Offline video editing",
+            "font": "sans_bold",
+            "size_pct": 6.5,
+            "color": [
+              255,
+              255,
+              255,
+              255
+            ],
+            "align": "left",
+            "outline": false,
+            "outline_color": [
+              0,
+              0,
+              0,
+              255
+            ],
+            "shadow": false,
+            "typewriter_cps": null
+          },
+          "start": 1500000,
+          "duration": 4000000,
+          "source_in": 0,
+          "speed": 1.0,
+          "x": -0.1,
+          "y": 0.27,
+          "scale": 1.0,
+          "rotation": 0.0,
+          "opacity": 1.0,
+          "volume": 1.0,
+          "muted": false,
+          "fade_in": 0,
+          "fade_out": 0,
+          "fit": "fit",
+          "crop": {
+            "left": 0.0,
+            "top": 0.0,
+            "right": 0.0,
+            "bottom": 0.0
+          },
+          "color": {
+            "brightness": 0.0,
+            "contrast": 1.0,
+            "saturation": 1.0
+          },
+          "transition_in": null,
+          "transition_out": null,
+          "keyframes": [
+            {
+              "prop": "opacity",
+              "keys": [
+                {
+                  "t": 0,
+                  "v": 0.0,
+                  "interp": "linear"
+                },
+                {
+                  "t": 500000,
+                  "v": 1.0,
+                  "interp": "linear"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "kind": "text",
+      "name": "Text 3",
+      "visible": true,
+      "muted": false,
+      "clips": [
+        {
+          "id": 15,
+          "content": {
+            "type": "text",
+            "text": "No account. No upload.",
+            "font": "sans",
+            "size_pct": 4.0,
+            "color": [
+              255,
+              255,
+              255,
+              255
+            ],
+            "align": "left",
+            "outline": false,
+            "outline_color": [
+              0,
+              0,
+              0,
+              255
+            ],
+            "shadow": false,
+            "typewriter_cps": null
+          },
+          "start": 1500000,
+          "duration": 4000000,
+          "source_in": 0,
+          "speed": 1.0,
+          "x": -0.1,
+          "y": 0.33,
+          "scale": 1.0,
+          "rotation": 0.0,
+          "opacity": 1.0,
+          "volume": 1.0,
+          "muted": false,
+          "fade_in": 0,
+          "fade_out": 0,
+          "fit": "fit",
+          "crop": {
+            "left": 0.0,
+            "top": 0.0,
+            "right": 0.0,
+            "bottom": 0.0
+          },
+          "color": {
+            "brightness": 0.0,
+            "contrast": 1.0,
+            "saturation": 1.0
+          },
+          "transition_in": null,
+          "transition_out": null,
+          "keyframes": [
+            {
+              "prop": "opacity",
+              "keys": [
+                {
+                  "t": 0,
+                  "v": 0.0,
+                  "interp": "linear"
+                },
+                {
+                  "t": 500000,
+                  "v": 1.0,
+                  "interp": "linear"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "kind": "audio",
+      "name": "Audio 1",
+      "visible": true,
+      "muted": false,
+      "clips": [
+        {
+          "id": 17,
+          "content": {
+            "type": "media",
+            "media_id": 7
+          },
+          "start": 0,
+          "duration": 6000000,
+          "source_in": 0,
+          "speed": 1.0,
+          "x": 0.0,
+          "y": 0.0,
+          "scale": 1.0,
+          "rotation": 0.0,
+          "opacity": 1.0,
+          "volume": 0.4,
+          "muted": false,
+          "fade_in": 500000,
+          "fade_out": 500000,
+          "fit": "fit",
+          "crop": {
+            "left": 0.0,
+            "top": 0.0,
+            "right": 0.0,
+            "bottom": 0.0
+          },
+          "color": {
+            "brightness": 0.0,
+            "contrast": 1.0,
+            "saturation": 1.0
+          },
+          "transition_in": null,
+          "transition_out": null,
+          "keyframes": []
+        }
+      ]
+    }
+  ],
+  "export": {
+    "width": 1280,
+    "height": 720,
+    "fps": 30.0,
+    "quality": 70,
+    "include_audio": true
+  }
+}
